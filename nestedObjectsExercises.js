@@ -179,7 +179,7 @@ The country you add should be an object with the key as name of the country and 
       return newObj;
   }
 
-  addCountry('england', 'london', 30000000);
+  addCountry('england', 'London', 30000000);
 
   /*
   Write a function addLanguage that adds a language to the languages object. The language object you add should have a key with the name of 
