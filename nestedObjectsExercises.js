@@ -30,6 +30,7 @@ function displayCities(){
 displayCities();
 
 
+//Write a function called displayHometownData that console.logs all the values inside of the hometown object
 function displayHometownData(){
     let homeData = instructorData.additionalData.moreDetails.hometown;
     for (let key in homeData){
@@ -40,6 +41,11 @@ function displayHometownData(){
 
 displayHometownData();
 
+
+/*
+write a function called addDetail that accepts two parameters, 
+a key and a value and adds the key and value to the moreDetails object and returns the moreDetails object
+*/
 function addDetail(key, valueItem){
     let detailObj = instructorData.additionalData.moreDetails;
      detailObj[key] = valueItem;
