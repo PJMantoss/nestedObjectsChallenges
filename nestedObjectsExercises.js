@@ -55,6 +55,10 @@ function addDetail(key, valueItem){
 addDetail("isHilarious", true);
 
 
+/*
+write a function called removeDetail that removes a key in the moreDetails object and returns 
+the moreDetails object (the new keys added above are not included in these examples).
+*/
 function removeDetail(key){
     let detailObj = instructorData.additionalData.moreDetails;
     let deletedValue = detailObj[key];
